@@ -1,0 +1,32 @@
+marquee{
+  background:#060808;
+  width: full;
+  padding: 3px;
+  color:#fff;
+  font-size: 17px;
+  font-family: 'proxima nova', 'open sans', 'Helvetica', sans-serif;
+}
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+}
+.tw{
+  width: 15px;
+  height: auto;
+  padding-right: 8px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+.comando{
+  color: #7c54b8;
+}
+.comandoverde{
+  color: #27a25d;
+}
