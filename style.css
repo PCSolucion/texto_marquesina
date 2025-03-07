@@ -1,17 +1,19 @@
-marquee{
-  background:#060808;
-  width: full;
+marquee {
+  background: #060808;
+  width: 100%;
   padding: 3px;
-  color:#fff;
+  color: #fff;
   font-size: 17px;
   font-family: 'proxima nova', 'open sans', 'Helvetica', sans-serif;
 }
-.marquee span {
+
+.marquee span.spacer {
   display: inline-block;
-  padding-left: 100%;
+  width: 500px; /* Ajusta el ancho según el espacio deseado */
 }
-.tw{
-  width: 15px;
+
+.tw {
+  width: 20px;
   height: auto;
   padding-right: 8px;
 }
@@ -24,9 +26,11 @@ marquee{
     transform: translate(-100%, 0);
   }
 }
-.comando{
+
+.comando {
   color: #7c54b8;
 }
-.comandoverde{
+
+.comandoverde {
   color: #27a25d;
 }
